@@ -1,0 +1,16 @@
+git:
+  remote: git@github.com:jangcs/model_big.git
+dvc:
+  remote: gs://cr-model-test/model_big
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: model_big
+  tag: ''
+#labels : 
+#  label_key1: lavel_value1
+#  label_key2: lavel_value2
+#  resolution: 640x480(sample)
